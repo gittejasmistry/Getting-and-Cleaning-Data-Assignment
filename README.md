@@ -39,14 +39,14 @@ Code performs below checks so that everytime when code runs it does not download
     * x_data_mean_std_activity_name contains data set with activity names
    
   ## Using descriptive names for columns
-  ### prefix t is replaced by time
-  ### Acc is replaced by Accelerometer
-  ### Gyro is replaced by Gyroscope
-  ### prefix f is replaced by frequency
-  ### Mag is replaced by Magnitude
-  ### BodyBody is replaced by Body
+  prefix t is replaced by time
+  Acc is replaced by Accelerometer
+  Gyro is replaced by Gyroscope
+  prefix f is replaced by frequency
+  Mag is replaced by Magnitude
+  BodyBody is replaced by Body
   
-  #C reating a second, independent tidy data set with the average of each variable for each activity and each subject:
+  # Creating a second, independent tidy data set with the average of each variable for each activity and each subject:
   ## Making second tidy data set
       * Code performs aggregate mean of observation by activityId and subjectId and stores it in another_x_data_mean_std
       * Data is sorted based on subjectId and activityId
